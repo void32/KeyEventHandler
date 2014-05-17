@@ -17,6 +17,6 @@ Example of use (Add following lines in your python script):
 
 #Setup callback for key press
 KeyPressHandler.RegisterKey ('escape', exit);
-pathPlotFigure.canvas.mpl_connect('key_press_event', KeyPressHandler())
+figure.canvas.mpl_connect('key_press_event', KeyPressHandler())
 
 """
