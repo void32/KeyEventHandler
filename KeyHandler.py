@@ -12,9 +12,11 @@ class KeyPressHandler():
         if(KeyPressHandler.keyActionDict.has_key(event.key)):
             KeyPressHandler.keyActionDict[event.key]()
 
-"""Example of use:
+"""
+Example of use:
 
 #Setup callback for key press
 KeyPressHandler.RegisterKey ('escape', exit);
 pathPlotFigure.canvas.mpl_connect('key_press_event', KeyPressHandler())
+
 """
