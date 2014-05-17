@@ -13,7 +13,7 @@ class KeyPressHandler():
             KeyPressHandler.keyActionDict[event.key]()
 
 """
-Example of use:
+Example of use (Add following lines in your python script):
 
 #Setup callback for key press
 KeyPressHandler.RegisterKey ('escape', exit);
